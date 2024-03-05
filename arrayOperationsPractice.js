@@ -1,0 +1,11 @@
+let arr1 = [1,2,3];
+// arr1 = arr1.find((ele)=>(ele>1));
+console.log('before :'+arr1);
+let len = arr1.push(4,5);
+console.log('after :'+arr1);
+console.log('Length after adding New Elements :'+len);
+arr2 = arr1.filter((ele)=>(ele>1));
+console.log(arr2);
+let names = ['Apple','Ajay','Boy'];
+let fNames = names.filter((n)=>(n.charAt(0)=='A'));
+console.log(fNames);
