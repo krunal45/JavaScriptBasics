@@ -25,6 +25,4 @@ function getUniqueElements(fruits){
   }
 
 let allFruits = ['apple','banana','chickoo','apple'];
-let fruits1 = [];
-fruits1 = getUniqueElements(allFruits);
-fruits1.forEach((fruit)=>console.log(fruit));
+getUniqueElements(allFruits).forEach((fruit)=>console.log(fruit));
