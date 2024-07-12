@@ -37,3 +37,29 @@ for(let entry of iterator){
 
 // set.forEach(e=>console.log('Hey '+'e'));
 // console.log(`Common elements between ${array1} and ${array2} is:`+set.forEach(e=>console.log(e)));
+
+//Option 2 > Better option
+// function findIntersection(array1, array2) {
+//     let set1 = new Set();
+    
+//     // Loop through array1
+//     for (let value of array1) {
+//         // Check if the value exists in array2
+//         if (array2.includes(value)) {
+//             set1.add(value); // Add it to the Set if it's in both arrays
+//         }
+//     }
+    
+//     return set1;
+// }
+
+// let array1 = [1, 2];
+// let array2 = [2, 2];
+// let set = findIntersection(array1, array2);
+
+// console.log(set); // Outputs: Set { 2 }
+
+// let iterator = set.values(); // Using values() instead of entries() to iterate over Set
+// for (let value of iterator) {
+//     console.log(value); // Outputs: 2
+// }
