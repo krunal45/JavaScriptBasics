@@ -1,18 +1,16 @@
-let name,age,student_id,enrollment_status,gender; //student attributes
-
+let fullName, age, studentId,gender,enrollmentStatus;
 class Student{
-    constructor(name,age,student_id,enrollment_status,gender){
-        this.name = name;
+    
+    constructor(fullName, age, studentId,gender,enrollmentStatus){
+        this.fullName = fullName;
         this.age = age;
-        this.student_id = student_id;
-        this.enrollment_status = enrollment_status;
+        this.studentId = studentId;
         this.gender = gender;
-    } 
+        this.enrollmentStatus = enrollmentStatus;
+    }
 }
 
-let Gaurav = new Student('Gaurav',32,7,'Active','Male');
-let Krunal = new Student('Krunal',30,8,'Active','Male');
-let Khyati = new Student('Khyati',28,9,'Active','Female');
-let Students = [Gaurav,Krunal,Khyati]
-// console.log(Students);
-console.log('Name :'+Students[0].name);
+let Joy = new Student('Joy Bhattcharya',12,001,'Male','Active');
+let Ben = new Student('Ben Bhattcharya',12,002,'Male','Active');
+console.log(Joy);
+console.log(Ben);
