@@ -35,3 +35,33 @@ let nums = [1,3,5,7]
 console.log('Before adding new number > ',nums);
 nums.splice(1,0,2)
 console.log('After adding new number > ',nums);
+
+// 7. Using slice function
+console.log('Before slice function');
+console.log(states);
+console.log('After slice function');
+console.log(states.slice(0,3));
+// numbers = [1,2,3,4,5,6,7] > For example: we want numbers from 4 to 7 then we can achieve this using slice function
+let numbers = [1,2,3,4,5,6,7];
+console.log('Actual Numbers > ',numbers);
+let slicedNumbers = numbers.slice(3)
+console.log('Sliced Numbers > ',slicedNumbers);
+// For example we want last 2 numbers
+let lastTwoNumbers = numbers.slice(-2)
+console.log('Last Two Numbers > ',lastTwoNumbers);
+
+// 8. Using concat function
+let weekDays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu'];
+let weekendDays = ['Fri', 'Sat'];
+let combinedDays = weekDays.concat(weekendDays);
+console.log('Combined Days > ',combinedDays);
+
+// 9. Using indexOf function
+let names = ['Ajay','Adi','Bala','Ajay'];
+let firstIndexOfAjay = names.indexOf('Ajay');
+console.log('firstIndexOfAjay > ',firstIndexOfAjay);
+let secondIndexOfAjay = names.indexOf('Ajay',names.indexOf('Ajay')+1);
+console.log('secondIndexOfAjay > ',secondIndexOfAjay);
+
+// 10. Using lastIndexOf function
+console.log('lastIndexOfAjay > ',names.lastIndexOf('Ajay'));
