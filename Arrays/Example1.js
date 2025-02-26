@@ -65,3 +65,9 @@ console.log('secondIndexOfAjay > ',secondIndexOfAjay);
 
 // 10. Using lastIndexOf function
 console.log('lastIndexOfAjay > ',names.lastIndexOf('Ajay'));
+
+// 11. Using forEach function
+let oddNumbers = [1,3,5,7,9];
+oddNumbers.forEach((num)=>{
+    console.log('Odd Number > ',num*2);
+});
