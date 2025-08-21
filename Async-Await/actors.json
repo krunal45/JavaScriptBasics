@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Aamir Khan",
+    "dob": "1965-03-14",
+    "nationality": "Indian"
+  },
+  {
+    "id": 2,
+    "name": "Deepika Padukone",
+    "dob": "1986-01-05",
+    "nationality": "Indian"
+  },
+  {
+    "id": 3,
+    "name": "Hrithik Roshan",
+    "dob": "1974-01-10",
+    "nationality": "Indian"
+  }
+]

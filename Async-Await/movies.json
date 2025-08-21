@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "3 Idiots",
+    "year": 2009,
+    "genre": "Comedy-Drama",
+    "director": "Rajkumar Hirani"
+  },
+  {
+    "id": 2,
+    "title": "Dangal",
+    "year": 2016,
+    "genre": "Biographical Sports Drama",
+    "director": "Nitesh Tiwari"
+  },
+  {
+    "id": 3,
+    "title": "Zindagi Na Milegi Dobara",
+    "year": 2011,
+    "genre": "Adventure Drama",
+    "director": "Zoya Akhtar"
+  }
+]
